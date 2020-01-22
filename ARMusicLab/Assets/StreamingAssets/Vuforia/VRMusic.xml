@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="vinyletable" size="1.000000 0.702521" />
+    <ImageTarget name="vinyle-up" size="10.000000 8.450000" />
+    <ImageTarget name="vinyle" size="10.000000 6.766667" />
+    <ImageTarget name="electricRedGuitar" size="1.000000 1.019108" />
+    <ImageTarget name="electricGuitar" size="1.000000 1.000000" />
+    <ImageTarget name="acousticGuitar" size="1.000000 1.010526" />
+    <ImageTarget name="piano" size="1.000000 1.000000" />
+    <ImageTarget name="violin" size="1.000000 0.995893" />
+    <ImageTarget name="drums" size="1.000000 0.777060" />
+    <ImageTarget name="saxophoneMarker" size="1.000000 1.010309" />
+  </Tracking>
+</QCARConfig>
