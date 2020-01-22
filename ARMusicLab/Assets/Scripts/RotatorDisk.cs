@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Rotator : MonoBehaviour
+public class RotatorDisk : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,7 +13,6 @@ public class Rotator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		transform.Rotate(new Vector3(0, 30, 0) * Time.deltaTime);
+        transform.Rotate(new Vector3(0, 30, 0) * Time.deltaTime);
     }
 }
-
