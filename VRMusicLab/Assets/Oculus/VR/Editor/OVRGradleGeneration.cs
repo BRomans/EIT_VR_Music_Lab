@@ -89,10 +89,10 @@ public class OVRGradleGeneration
 		if (!PlayerSettings.GetUseDefaultGraphicsAPIs(BuildTarget.Android))
 		{
 			GraphicsDeviceType[] apis = PlayerSettings.GetGraphicsAPIs(BuildTarget.Android);
-			if (apis.Length >= 1 && apis[0] == GraphicsDeviceType.Vulkan)
-			{
-				throw new BuildFailedException("XR is currently not supported when using the Vulkan Graphics API. Please go to PlayerSettings and remove 'Vulkan' from the list of Graphics APIs.");
-			}
+			//if (apis.Length >= 1 && apis[0] == GraphicsDeviceType.Vulkan)
+			//{
+				//throw new BuildFailedException("XR is currently not supported when using the Vulkan Graphics API. Please go to PlayerSettings and remove 'Vulkan' from the list of Graphics APIs.");
+		//	}
 		}
 #endif
 
