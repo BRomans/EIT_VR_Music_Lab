@@ -45,6 +45,6 @@ public class PointerEvents : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public void OnPointerClick(PointerEventData eventData)
     {
         OnClick.Invoke();
-        print("Click");
+        
     }
 }
