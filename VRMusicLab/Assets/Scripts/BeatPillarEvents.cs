@@ -6,65 +6,49 @@ using UnityEngine.EventSystems;
 
 public class BeatPillarEvents : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler
 {
-    [SerializeField] private Color normalColor = Color.white;
-    [SerializeField] private Color enterColor = Color.white;
-    [SerializeField] private Color downColor = Color.white;
     [SerializeField] GameObject totemPillar;
     [SerializeField] GameObject totemSphere;
     [SerializeField] AudioSource audioSource;
     [SerializeField] private UnityEvent OnClick = new UnityEvent();
     bool totemActive = false;
-
-    private MeshRenderer meshRenderer = null;
+    float rotationsPerMinute = 10.0f;
 
     private void Awake()
     {
-        meshRenderer = GetComponent<MeshRenderer>();
     }
 
     private void Start() {
-       DisableEmission();
+        DisableEmission();
     }
 
     private void Update() {
     
         if(totemActive) {
-            Material pillarMaterial = totemPillar.GetComponent<Renderer>().material;
-            Material sphereMaterial = totemSphere.GetComponent<Renderer>().material;
-            float floor = 0.3f;
-            float ceiling = 1.0f;
-            float emission = floor + Mathf.PingPong (Time.time, ceiling - floor);
-
-            Color baseColor = pillarMaterial.GetColor("_EmissionColor"); //Replace this with whatever you want for your base color at emission level '1'
-    
-            Color finalColor = baseColor * Mathf.LinearToGammaSpace (emission);
-    
-            pillarMaterial.SetColor ("_EmissionColor", finalColor);
-            sphereMaterial.SetColor ("_EmissionColor", finalColor);
+            totemSphere.transform.Rotate(0 ,6.0f * rotationsPerMinute * Time.deltaTime ,0);
         }
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        meshRenderer.material.color = enterColor;
-        print("Enter");
+        print("Hover IN");
+        EnableEmission();
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        meshRenderer.material.color = normalColor;
-        print("Exit");
+        print("Hover OUT");
+        if(!totemActive) {
+            DisableEmission();
+        }
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        meshRenderer.material.color = downColor;
         print("Down");
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        meshRenderer.material.color = enterColor;
         print("Up");
     }
 
@@ -84,6 +68,20 @@ public class BeatPillarEvents : MonoBehaviour, IPointerEnterHandler, IPointerExi
             this.audioSource.Stop();
             DisableEmission();
         }
+    }
+
+    public void StartPulsating() {
+        Material pillarMaterial = totemPillar.GetComponent<Renderer>().material;
+        Material sphereMaterial = totemSphere.GetComponent<Renderer>().material;
+        float floor = 0.3f;
+        float ceiling = 1.0f;
+        float emission = floor + Mathf.PingPong (Time.time, ceiling);
+
+        Color baseColor = pillarMaterial.GetColor("_EmissionColor"); //Replace this with whatever you want for your base color at emission level '1'
+        Color finalColor = baseColor * Mathf.LinearToGammaSpace (emission);    
+
+        pillarMaterial.SetColor ("_EmissionColor", finalColor);
+        sphereMaterial.SetColor ("_EmissionColor", finalColor);
     }
 
     public void DisableEmission() {
