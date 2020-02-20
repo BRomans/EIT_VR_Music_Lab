@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 
 public class BeatPillarEvents : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler
 {
+    [SerializeField] TempoSynchronizer tempoSync;
     [SerializeField] GameObject totemPillar;
     [SerializeField] GameObject totemSphere;
     [SerializeField] AudioSource audioSource;
@@ -64,9 +65,11 @@ public class BeatPillarEvents : MonoBehaviour, IPointerEnterHandler, IPointerExi
         if(totemActive) {
             this.audioSource.Play();
             EnableEmission();
+            tempoSync.SetMaster(audioSource);
         } else {
             this.audioSource.Stop();
             DisableEmission();
+            tempoSync.RemoveMaster();
         }
     }
 
