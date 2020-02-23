@@ -266,6 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 877deb7538333434fb07c331b2eabbdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tempoSync: {fileID: 0}
   totemPillar: {fileID: 7198532744427297257}
   totemSphere: {fileID: 7198532745141552539}
   audioSource: {fileID: 1618892006432541822}
