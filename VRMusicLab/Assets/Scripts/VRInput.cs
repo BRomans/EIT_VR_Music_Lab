@@ -9,6 +9,8 @@ public class VRInput : BaseInput
     public Camera eventCamera;
 
     public OVRInput.Button clickButton = OVRInput.Button.PrimaryIndexTrigger;
+    public OVRInput.Button buttonOne = OVRInput.Button.One;
+    public OVRInput.Button buttonTwo = OVRInput.Button.Two;
     public OVRInput.Controller controller = OVRInput.Controller.All;
 
     protected override void Awake() {

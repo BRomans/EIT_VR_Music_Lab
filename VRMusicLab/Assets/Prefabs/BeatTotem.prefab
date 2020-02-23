@@ -103,6 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2606829214526441347}
   - component: {fileID: 1618892006432541822}
+  - component: {fileID: 1097073454833212955}
   m_Layer: 0
   m_Name: TotemAudio
   m_TagString: Untagged
@@ -133,7 +134,8 @@ AudioSource:
   m_GameObject: {fileID: 3812704577005702757}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 218dccbbb85fbcc409bfe9723a305043,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -220,6 +222,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1097073454833212955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3812704577005702757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab2e77f78fb7d224082f0f4566bac365, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &7198532744427297257
 GameObject:
   m_ObjectHideFlags: 0
