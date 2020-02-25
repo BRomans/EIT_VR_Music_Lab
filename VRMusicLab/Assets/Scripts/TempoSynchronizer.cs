@@ -11,9 +11,9 @@ public class TempoSynchronizer : MonoBehaviour
 
     void Update() {
         if(masterSet) {
-        UpdateMaster();
+            UpdateMaster();
         } else {
-        SyncSlaves();
+            SyncSlaves();
         }
     }
 
@@ -33,8 +33,8 @@ public class TempoSynchronizer : MonoBehaviour
     }
 
     public void SetMaster(AudioSource source) {
-    this.master = source;
-    this.masterSet = true;
+        this.master = source;
+        this.masterSet = true;
     }
 
     public void RemoveMaster() {
