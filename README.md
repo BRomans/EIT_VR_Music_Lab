@@ -14,6 +14,6 @@ You are a newborn God of Music and you are given the mission of bringing the mus
 During your apprenticeship you will be guided by the Supreme God of Music into the main aspects of music composition until you’ll be able to freely experiment and create on your own. Follow the training to complete your achievements and unlock new powerful tools.
 
 
-# Research
+## Research
 The project has been inspired by a research about music composition and game-based learning. 
 Read the report document if you want to know more.
