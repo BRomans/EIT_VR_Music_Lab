@@ -691,7 +691,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 9da4ace149d67cc4dad93a0d740e6653, type: 3}
+      objectReference: {fileID: 8300000, guid: 3f6e035952aaad64eb0c7680476e0e78, type: 3}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2112,7 +2112,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 3c9a280af7303c347a29455c59cf53ad, type: 3}
+      objectReference: {fileID: 8300000, guid: 845a504678893854db67a78905317850, type: 3}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3825,7 +3825,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 564bd22336e76f14f8490a65685af478, type: 3}
+      objectReference: {fileID: 8300000, guid: 975090ec2e86bf649bec3050ff0f0eb7, type: 3}
     - target: {fileID: 8229165567400642564, guid: a0e883253252a5347bd7ffa68f489c44,
         type: 3}
       propertyPath: m_Name
@@ -11184,6 +11184,12 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 080771ba87dca82439747bdf936b9b09, type: 3}
+    - target: {fileID: 6530319622016108707, guid: a0e883253252a5347bd7ffa68f489c44,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 24300002, guid: 218dccbbb85fbcc409bfe9723a305043,
+        type: 2}
     - target: {fileID: 8229165567400642564, guid: a0e883253252a5347bd7ffa68f489c44,
         type: 3}
       propertyPath: m_Name
