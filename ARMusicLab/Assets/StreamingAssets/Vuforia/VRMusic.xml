@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="disksx2" size="1.000000 1.000000" />
+    <ImageTarget name="disks" size="1.000000 1.000000" />
+    <ImageTarget name="sticks" size="1.000000 1.000000" />
+    <ImageTarget name="applause" size="1.000000 1.000000" />
+    <ImageTarget name="pedal" size="1.000000 1.000000" />
+    <ImageTarget name="bass" size="1.000000 1.000000" />
+    <ImageTarget name="musicnote" size="1.000000 1.000000" />
+    <ImageTarget name="microphone" size="1.000000 1.000000" />
+    <ImageTarget name="musicwave" size="1.000000 1.000000" />
+    <ImageTarget name="TestMixingTable" size="1.000000 0.715453" />
     <ImageTarget name="vinyletable" size="1.000000 0.702521" />
     <ImageTarget name="vinyle-up" size="10.000000 8.450000" />
     <ImageTarget name="vinyle" size="10.000000 6.766667" />

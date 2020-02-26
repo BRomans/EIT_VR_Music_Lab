@@ -4,6 +4,8 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
+ARMusicLab/[Ll]ibrary/
+VRMusicLab/[Ll]ibrary/
 
 Assets/AssetStoreTools*
 
