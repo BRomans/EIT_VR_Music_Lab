@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using Leap.Unity.Interaction;
 
-public class volume : MonoBehaviour
+public class ModifyVolume : MonoBehaviour
 {
     //public AudioListener musica;
     //public InteractionSlider slider; 
-    float musicVolume=0;
+    public float musicVolume=0;
    
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,7 @@ public class volume : MonoBehaviour
     void Update()
     {
          musicVolume=GetComponent<InteractionSlider>().HorizontalSliderPercent;
-         Debug.Log(musicVolume);
+         //Debug.Log(musicVolume);
          //musica.volume=musicVolume;
          AudioListener.volume = musicVolume;
     }

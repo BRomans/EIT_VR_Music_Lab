@@ -5,7 +5,7 @@ using Leap.Unity.Interaction;
 
 public class ModifyTempo : MonoBehaviour
 {
-    AudioSource m_MyAudioSource;
+    public AudioSource[] m_MyAudioSource;
     public float speed = 0;
     UnityEngine.Audio.AudioMixerGroup pitchBendGroup;
     
@@ -13,15 +13,23 @@ public class ModifyTempo : MonoBehaviour
     void Start()
     {
         pitchBendGroup = Resources.Load<UnityEngine.Audio.AudioMixerGroup>("MusicLabMixer");
-        m_MyAudioSource = GetComponent<AudioSource>();
-        m_MyAudioSource.outputAudioMixerGroup = pitchBendGroup;
+        
+        for(int i=0; i<m_MyAudioSource.Length; i++)
+         {
+            //m_MyAudioSource[i] = GetComponent<AudioSource>();
+            m_MyAudioSource[i].outputAudioMixerGroup = pitchBendGroup;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
         speed=GetComponent<InteractionSlider>().HorizontalSliderPercent;
-        m_MyAudioSource.pitch = 1f+speed;
-        pitchBendGroup.audioMixer.SetFloat("pitchBend", 1f / (1f+speed));
+        speed -= 0.5f;
+        for(int i=0; i<m_MyAudioSource.Length; i++)
+         {
+            m_MyAudioSource[i].pitch = 1f+speed;
+            pitchBendGroup.audioMixer.SetFloat("pitchBend", 1f / (1f+speed));
+         }
     }
 }
