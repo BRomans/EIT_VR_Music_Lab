@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AXyuXWb/////AAABmZWQk40ln0lHseMtAZlOquoktcNk1PXvz4sd513HPrDALPHIfbmybdujR9sEODULfw5dZH52q/Xvu2HvxdgdaN1Cg82rYtZ9MP2NdDP87UcMMVz0O36F53kcZthH18mPE9b63kxRxzc3EV8FWt4x1WumuEcqIEcjuHI/1HX/bSimS3dwVnmU/p+NFhqWTmL6WN1IeRGnZe3X1yjX2ZQCzCwSxfqW7D/JNZe4XWgv6xqqoNRzJb59omoaAgQQ4FPHcAuQST4ghJBZR38tNDXSW30fuO6LhZuAqV4coDvVwUxiUEuZLbma9mBS40cXmOAzXE4SrBqKpasaBU+lvwmIDm4NZygcFVKkYUg2AWfGnfjO
-    ufoLicenseKey: QVJ0eTRvLy8vLy8vQUFBQUtEazBDK0lMMUU5RHNxdzdPdlBNYVNzUUdNdHJxM3dOTWdtSFNMR0VWejIydy9JUitMVWNzR0NNUzZaTk43aHljQ0huNTJIV1JqMzVwRC9xcFY2QnNEbW1XVkt6SWthZmVGdU9pQ2xQVmxvV3lUalpNUHhVaTRtbU5ac0lEaXoxaVRXc1NWQUNCNHBhNFJaZ3drdXRrUUV4M3VvdWhEc1ZEZVlkeS9IMGkwNVMxOEFPK1ZoTUp6Umt1N3grTVRZSEpYYnJheEw2RVFYeXFHSStObW10Zzc5QUlFaloybnJ1d01uKytZOVpaVGVNTHE2aUo5MXhhNG9mOE1PT2Y1Q1pWYjU0eXdMRUtiVFJWZFlhbmxGcFZzOHcwWCtmNlRXbFZZbEF4dUVWREx1REVraDJTcnpkTnZVYXpQS01OdHVpYUt0UDM2Vm80bHBrcXN0MmJTb3A3ZnEwY2pIR1ZLeEdOVUpzUklVMklQL2E=
+    vuforiaLicenseKey: AQwTIP7/////AAABmRyebyvpTEyInoQnXBzpLNIWThl4fHepsc2mW+iFH05lEIMH8st6XvfJRyUBVoHcYyjY+7djs7jse3jNCcWFg53BhfZte8sGtSR+AJ+7PRHgaR82tMZ1iJKrlCBqi4gBIvuFALYnQONkEpCwr+kScqXxdUwbUymvMh5wuQzLxz4+zFfQyaiJYi/Cni+UmhPvObujkLytTvucMexgGtQPCxhUtimYOpqAcmSbdIDbUIfjAkT6cgGaocHo9DO0xIPK9mxp3pZGy7ic8M0VsC8sfUWk90SPDUV/YogIW776zhWUn7gWwca7F1tdJgzDgDWmQsGe7gHwnesoa6pmelCTOTOVTj38UgclqJHJOap2fdoz
+    ufoLicenseKey: QWZmRER3Zi8vLy8vQUFBQUtHWEQ4cEZoajA1RmkwYjBEazYwcnJFSTZKWDVyS0pnQVZvVXlaZ2VBbkhkWUVMOWVVaWkvUVpJN202SitVVEl5WGN4ejk3YjIwdW1MemhTbmduOHY1eUNFVlVxRmd4TmsxajFxRkRjY3hhNFYwd0J5SU9EYVF4bWpheHd4RzdId1NqY1JUa2wxcElqYXVTc1YxYll4Uk1YZkl1eWlrL1pIanNZdDhXSzdkSWtJdWZURlNLRkUvaUI1akF6S0l6R1dTSHV0ZDQ1T3NvdlVteTFzS1lQb0hOdUFEMzZXZUtSMFovV1dBV3BUNVg1NzhrUWR6aXFXRXV1dFptMHo4OE5ncmxtNjByeHBVM29GbGZpUEJlQXZLR0JIUWxhd0dybE5hWWhTUUkzamxrMGpHZnZicVRrNHlqak9SQ0pza2lZck5PWDBxZ255QXRlRVB6NkpOSkp1bzErMDNod2J4ZnJHM0dqeW9UL0NaR1g=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
+    maxSimultaneousImageTargets: 3
+    maxSimultaneousObjectTargets: 3
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
     version: 8.3.8
-    eulaAcceptedVersions: '{"Values":["8.5","8.3"]}'
+    eulaAcceptedVersions: '{"Values":["8.3","8.5","8.1"]}'
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -66,6 +66,6 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: Microsoft LifeCam Rear
     turnOffWebCam: 0
     renderTextureLayer: 30

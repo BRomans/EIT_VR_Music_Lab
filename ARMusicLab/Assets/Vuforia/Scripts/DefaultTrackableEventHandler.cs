@@ -22,6 +22,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     protected TrackableBehaviour mTrackableBehaviour;
     protected TrackableBehaviour.Status m_PreviousStatus;
     protected TrackableBehaviour.Status m_NewStatus;
+    public AudioSource aSource;
+   /// public AudioClip aClip;
 
     #endregion // PROTECTED_MEMBER_VARIABLES
 
@@ -64,11 +66,19 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
         {
             OnTrackingFound();
+            if (mTrackableBehaviour.TrackableName == "piano" || mTrackableBehaviour.TrackableName == "guitar" || mTrackableBehaviour.TrackableName == "disksx2" || mTrackableBehaviour.TrackableName == "disks" || mTrackableBehaviour.TrackableName == "sticks" || mTrackableBehaviour.TrackableName == "applause" || mTrackableBehaviour.TrackableName == "pedal" || mTrackableBehaviour.TrackableName == "bass" || mTrackableBehaviour.TrackableName == "microphone" || mTrackableBehaviour.TrackableName == "musicwave")
+            {
+                aSource.Play();
+            }
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
                  newStatus == TrackableBehaviour.Status.NO_POSE)
         {
             OnTrackingLost();
+            if (mTrackableBehaviour.TrackableName == "piano" || mTrackableBehaviour.TrackableName == "guitar" || mTrackableBehaviour.TrackableName == "disksx2" || mTrackableBehaviour.TrackableName == "disks" || mTrackableBehaviour.TrackableName == "sticks" || mTrackableBehaviour.TrackableName == "applause" || mTrackableBehaviour.TrackableName == "pedal" || mTrackableBehaviour.TrackableName == "bass" || mTrackableBehaviour.TrackableName == "microphone" || mTrackableBehaviour.TrackableName == "musicwave")
+            {
+                aSource.Stop();
+            }
         }
         else
         {
