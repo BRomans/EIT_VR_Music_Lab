@@ -353,7 +353,7 @@ PrefabInstance:
     - target: {fileID: 7198532744970846114, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_Name
-      value: BeatTotem
+      value: ClapTotem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e378fa472ece994f8eb11ccf5a2eb57, type: 3}
@@ -388,37 +388,37 @@ PrefabInstance:
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.403654
+      value: -18.132156
       objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.855117
+      value: -3.2
       objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.2863
+      value: 28.659931
       objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.03558436
+      value: 0.007015228
       objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.005870889
+      value: -0.74888235
       objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.050512526
+      value: 0.07939591
       objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.998072
+      value: 0.65789235
       objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
@@ -428,22 +428,22 @@ PrefabInstance:
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -4.1070004
+      value: 7.3630004
       objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -0.467
+      value: -97.051
       objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -5.7780004
+      value: 5.4360003
       objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846114, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_Name
-      value: BeatTotem
+      value: Hat2Totem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e378fa472ece994f8eb11ccf5a2eb57, type: 3}
@@ -747,7 +747,7 @@ PrefabInstance:
     - target: {fileID: 7198532744970846114, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_Name
-      value: BeatTotem
+      value: KickTotem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e378fa472ece994f8eb11ccf5a2eb57, type: 3}
@@ -2349,18 +2349,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1173853250}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &836508370 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 333460084629876492, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
-    type: 3}
-  m_PrefabInstance: {fileID: 1484587983}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 877deb7538333434fb07c331b2eabbdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &867040963 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11406422, guid: c8515ebee271c0649b9db1321f3026a4,
@@ -3011,6 +2999,8 @@ Transform:
   - {fileID: 1484587984}
   - {fileID: 199670802}
   - {fileID: 93923292}
+  - {fileID: 2098050005}
+  - {fileID: 1901208120}
   m_Father: {fileID: 602222089}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3163,7 +3153,7 @@ PrefabInstance:
         type: 3}
       propertyPath: pillar
       value: 
-      objectReference: {fileID: 1783716849}
+      objectReference: {fileID: 2090435848}
     - target: {fileID: 1914266560380259756, guid: 2f12866e3a283fc41bc56ebe906e5ac2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -4856,7 +4846,7 @@ PrefabInstance:
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -40.2
+      value: -30.2
       objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
@@ -4911,7 +4901,7 @@ PrefabInstance:
     - target: {fileID: 7198532744970846114, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_Name
-      value: BeatTotem
+      value: SnareTotem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e378fa472ece994f8eb11ccf5a2eb57, type: 3}
@@ -5209,6 +5199,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 9da4ace149d67cc4dad93a0d740e6653, type: 3}
+    - target: {fileID: 1392078759203396918, guid: 2f12866e3a283fc41bc56ebe906e5ac2,
+        type: 3}
+      propertyPath: pillar
+      value: 
+      objectReference: {fileID: 1901208121}
     - target: {fileID: 1914266560380259756, guid: 2f12866e3a283fc41bc56ebe906e5ac2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5325,7 +5320,7 @@ PrefabInstance:
         type: 3}
       propertyPath: pillar
       value: 
-      objectReference: {fileID: 836508370}
+      objectReference: {fileID: 386797392}
     - target: {fileID: 1914266560380259756, guid: 2f12866e3a283fc41bc56ebe906e5ac2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -5694,6 +5689,11 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 3f6e035952aaad64eb0c7680476e0e78, type: 3}
+    - target: {fileID: 1618892006432541822, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: BypassReverbZones
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5752,7 +5752,7 @@ PrefabInstance:
     - target: {fileID: 7198532744970846114, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_Name
-      value: BeatTotem
+      value: BassTotem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e378fa472ece994f8eb11ccf5a2eb57, type: 3}
@@ -6131,6 +6131,108 @@ AudioSource:
     type: 3}
   m_PrefabInstance: {fileID: 1812135964}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1901208119
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1163378435}
+    m_Modifications:
+    - target: {fileID: -3789191246679472177, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b683ed280bff9b4da8bdb8265b2de9e, type: 3}
+    - target: {fileID: 333460084629876492, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: tempoSync
+      value: 
+      objectReference: {fileID: 1238304165}
+    - target: {fileID: 1618892006432541822, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 59a1fc8664879ad4c8ed0347600aa1fb, type: 3}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.982944
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.7625413
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 34.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.034946006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.008915779
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.035691246
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9987119
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -3.966
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.166
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 4.1340003
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846114, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_Name
+      value: DrumTotem
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4e378fa472ece994f8eb11ccf5a2eb57, type: 3}
+--- !u!4 &1901208120 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+    type: 3}
+  m_PrefabInstance: {fileID: 1901208119}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1901208121 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 333460084629876492, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+    type: 3}
+  m_PrefabInstance: {fileID: 1901208119}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877deb7538333434fb07c331b2eabbdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1944805179 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11407378, guid: 39d18871c11b53c4082d8202e3db68a3,
@@ -6813,7 +6915,7 @@ PrefabInstance:
         type: 3}
       propertyPath: pillar
       value: 
-      objectReference: {fileID: 386797392}
+      objectReference: {fileID: 2098050006}
     - target: {fileID: 1914266560380259756, guid: 2f12866e3a283fc41bc56ebe906e5ac2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -6849,6 +6951,16 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 845a504678893854db67a78905317850, type: 3}
+    - target: {fileID: 1618892006432541822, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.805
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618892006432541822, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: BypassReverbZones
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6907,7 +7019,7 @@ PrefabInstance:
     - target: {fileID: 7198532744970846114, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
         type: 3}
       propertyPath: m_Name
-      value: BeatTotem
+      value: SynthTotem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e378fa472ece994f8eb11ccf5a2eb57, type: 3}
@@ -7161,6 +7273,120 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+--- !u!114 &2090435848 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 333460084629876492, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+    type: 3}
+  m_PrefabInstance: {fileID: 1812135964}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877deb7538333434fb07c331b2eabbdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2098050004
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1163378435}
+    m_Modifications:
+    - target: {fileID: -3789191246679472177, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2b683ed280bff9b4da8bdb8265b2de9e, type: 3}
+    - target: {fileID: 333460084629876492, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: tempoSync
+      value: 
+      objectReference: {fileID: 1238304165}
+    - target: {fileID: 1618892006432541822, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 59a1fc8664879ad4c8ed0347600aa1fb, type: 3}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -29.403654
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.855117
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.03558436
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.005870889
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.050512526
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.998072
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -4.1070004
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.467
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -5.7780004
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198532744970846114, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+        type: 3}
+      propertyPath: m_Name
+      value: HatTotem
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4e378fa472ece994f8eb11ccf5a2eb57, type: 3}
+--- !u!4 &2098050005 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7198532744970846113, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+    type: 3}
+  m_PrefabInstance: {fileID: 2098050004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2098050006 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 333460084629876492, guid: 4e378fa472ece994f8eb11ccf5a2eb57,
+    type: 3}
+  m_PrefabInstance: {fileID: 2098050004}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877deb7538333434fb07c331b2eabbdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!21 &2132040689
 Material:
   serializedVersion: 6
