@@ -21,10 +21,11 @@ public class BeatPlayer : MonoBehaviour
     
      void OnTriggerEnter(Collider other)
     {  
-        
+        Debug.Log("COLLISION");
+         audioSource.Play();
         if (other.gameObject.tag == "Beats")
         {
-            audioSource.Play();
+           
         }
 
     }
