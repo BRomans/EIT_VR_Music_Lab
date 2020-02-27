@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="marker8-bass" size="10.000000 10.000000" />
+    <ImageTarget name="marker8-bass" size="1.000000 1.000000" />
+    <ImageTarget name="marker3-disks" size="1.000000 1.005263" />
+    <ImageTarget name="marker7-wave-extra-big" size="1.000000 1.000000" />
+    <ImageTarget name="marker7-wave-big" size="1.000000 1.005319" />
     <ImageTarget name="marker7-wave" size="0.100000 0.100000" />
     <ImageTarget name="mixingtable-extra-marker" size="1.000000 0.702521" />
     <ImageTarget name="marker6-microphone" size="1.000000 1.000000" />
     <ImageTarget name="marker5-disksx2" size="1.000000 1.000000" />
     <ImageTarget name="marker4-applause" size="1.000000 1.005291" />
-    <ImageTarget name="marker3-head" size="1.000000 1.000000" />
     <ImageTarget name="marker2-sticks" size="1.000000 1.000000" />
     <ImageTarget name="marker1-musicnote" size="1.000000 1.000000" />
     <ImageTarget name="wavenote_photo" size="1.000000 0.975831" />

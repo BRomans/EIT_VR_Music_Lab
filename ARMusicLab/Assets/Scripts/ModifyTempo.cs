@@ -12,7 +12,7 @@ public class ModifyTempo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pitchBendGroup = Resources.Load<UnityEngine.Audio.AudioMixerGroup>("NewAudioMixer");
+        pitchBendGroup = Resources.Load<UnityEngine.Audio.AudioMixerGroup>("MusicLabMixer");
         m_MyAudioSource = GetComponent<AudioSource>();
         m_MyAudioSource.outputAudioMixerGroup = pitchBendGroup;
     }

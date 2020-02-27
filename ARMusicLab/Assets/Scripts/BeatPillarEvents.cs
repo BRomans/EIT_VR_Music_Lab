@@ -73,6 +73,19 @@ public class BeatPillarEvents : MonoBehaviour, IPointerEnterHandler, IPointerExi
         }
     }
 
+    public void SetState(bool active) {
+        this.totemActive = active;
+        if(totemActive) {
+            this.audioSource.Play();
+            EnableEmission();
+            tempoSync.SetMaster(audioSource);
+        } else {
+            this.audioSource.Stop();
+            DisableEmission();
+            tempoSync.RemoveMaster();
+        }
+    }
+
     public void StartPulsating() {
         Material pillarMaterial = totemPillar.GetComponent<Renderer>().material;
         Material sphereMaterial = totemSphere.GetComponent<Renderer>().material;

@@ -6,6 +6,7 @@ public class BeatPlayer : MonoBehaviour
 {
 
     [SerializeField] AudioSource audioSource;
+    [SerializeField] BeatPillarEvents pillar;
 
     // Start is called before the first frame update
     void Start()
@@ -19,18 +20,18 @@ public class BeatPlayer : MonoBehaviour
         
     }
     
-     void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {  
-        Debug.Log("COLLISION");
-         audioSource.Play();
+        
         if (other.gameObject.tag == "Beats")
         {
-           
+            Debug.Log("Activated pillar!");
+            pillar.SetState(true);
         }
 
     }
 
-    void OnTriggerExit() {
-        audioSource.Stop();
+    public void OnTriggerExit() {
+        pillar.SetState(false);
     }
 }
