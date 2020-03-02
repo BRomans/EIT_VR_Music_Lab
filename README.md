@@ -10,9 +10,9 @@ The game will include two different modes, the first one will be for training an
 
 
 ## Scenario
-You are a newborn God of Music and you are given the mission of bringing the music “back” to the world by learning step by step all the fundamental concepts and tools needed to compose music.  But other minor Gods also want to do it, so you have to do your best to prove your ability.
-During your apprenticeship you will be guided by the Supreme God of Music into the main aspects of music composition until you’ll be able to freely experiment and create on your own. Follow the training to complete your achievements and unlock new powerful tools.
-
+During the VR environment, you are a newborn God of Music and you are given the mission of bringing the music “back” to the world by learning step by step all the fundamental concepts and tools needed to compose music. But other minor Gods also want to do it, so you have to do your best to prove your ability. 
+During your apprenticeship you will be guided by the Supreme God of Music into the main aspects of music composition until you’ll be able to freely experiment and create on your own. Follow the training to complete your achievements and unlock new powerful tools. 
+Afterwards, in the AR World, you will be able to explore the sounds and create your own compositions thanks to what existed in the virtual reality world. After learning all the mysteries of music, now you are not an apprentice anymore, and you are able to create more complex music structures, and not only create your own music but also modify it in real time thanks to the DJ Set.  
 
 ## Research
 The project has been inspired by a research about music composition and game-based learning. 
